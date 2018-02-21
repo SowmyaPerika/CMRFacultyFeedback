@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    tools:context="com.example.win.cmrfacultyfeedback.CivilReport">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:text="@string/remote_sensing_and_gis"
+            android:id="@+id/textView8"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView10"
+            android:textSize="25sp"
+            android:layout_below="@+id/textView8"
+            android:layout_alignParentStart="true"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:textColor="@android:color/black"
+            android:layout_alignParentLeft="true" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/transportation_engineering_ii"
+            android:id="@+id/textView11"
+            android:layout_below="@+id/textView10"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView12"
+            android:layout_below="@+id/textView11"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/estimation_and_costing"
+            android:id="@+id/textView13"
+            android:layout_below="@+id/textView12"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView14"
+            android:layout_below="@+id/textView13"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/water_resources_engineering_ii"
+            android:id="@+id/textView15"
+            android:layout_below="@+id/textView14"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView16"
+            android:layout_below="@+id/textView15"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/watershed_management"
+            android:id="@+id/textView17"
+            android:layout_below="@+id/textView16"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView18"
+            android:layout_below="@+id/textView17"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+
+            android:textAlignment="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/industrial_waste_water_treatment"
+            android:id="@+id/textView19"
+            android:layout_below="@+id/textView18"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView20"
+            android:layout_below="@+id/textView19"
+            android:textSize="25sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+
+            android:textColor="@android:color/black"
+            android:textAlignment="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chm_lab"
+            android:id="@+id/textView21"
+            android:layout_below="@+id/textView20"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView22"
+            android:layout_below="@+id/textView21"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+
+            android:textAlignment="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ee_lab"
+            android:textStyle="bold"
+            android:id="@+id/textView23"
+            android:layout_below="@+id/textView22"
+            android:textSize="20sp"
+            android:textColor="@android:color/black" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView24"
+            android:layout_below="@+id/textView23"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/textView25"
+            android:layout_below="@+id/textView24"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView26"
+            android:layout_below="@+id/textView25"
+            android:textSize="25sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:textColor="@android:color/black"
+            android:textAlignment="center" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/view_graph"
+            android:id="@+id/b1"
+            android:layout_below="@+id/textView26"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorAccent"
+            />
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.win.cmrfacultyfeedback.About"
+    tools:showIn="@layout/app_bar_about">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Steps to be followed"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"
+            android:paddingTop="15dp"
+            android:textStyle="bold"
+            android:id="@+id/textView28" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tview6"
+            android:text="  Follow the steps shown in the below image and give the rating."
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_below="@+id/textView28"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="13dp"
+            android:paddingTop="20dp"
+            android:paddingStart="10dp"
+            android:paddingBottom="30dp"
+            android:paddingLeft="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step-1: Register and Login with your email id and password."
+            android:textSize="20sp"
+            android:paddingTop="10dp"
+            android:paddingStart="10dp"
+            android:layout_below="@+id/tview6"
+            android:id="@+id/third"
+            android:textColor="@android:color/black"
+            android:paddingLeft="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step-2: After logged in wait until your roll no gets displayed and click on Academics."
+            android:textSize="20sp"
+            android:paddingTop="10dp"
+            android:paddingStart="10dp"
+            android:id="@+id/four"
+            android:layout_below="@+id/third"
+            android:textColor="@android:color/black"
+            android:paddingLeft="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step-3: Select your section and select the subject."
+            android:textSize="20sp"
+            android:paddingTop="10dp"
+            android:id="@+id/five"
+            android:layout_below="@+id/four"
+            android:textColor="@android:color/black"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step-4: Give the rating for all the subjects and then click on submit button."
+            android:textSize="20sp"
+            android:paddingTop="10dp"
+            android:id="@+id/six"
+            android:textColor="@android:color/black"
+            android:paddingBottom="20dp"
+            android:layout_below="@+id/five"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp" />
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@drawable/colla"
+            android:paddingBottom="20dp"
+            android:layout_weight="0.80"
+            android:layout_below="@+id/six"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/seven"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_below="@+id/imageView4"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingStart="10dp"
+            android:text="step-5: In order to give the rating to the workshop or seminar click on the workshop button in welcome page , pick the date and submit the Rating."
+            android:paddingLeft="10dp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:id="@+id/img5"
+            android:src="@drawable/next"
+            android:layout_below="@+id/seven"
+            android:paddingBottom="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="step-6: Finally after submitting your feedback do not forget to Logout."
+            android:layout_below="@+id/img5"
+            android:id="@+id/eight"
+            android:paddingStart="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:paddingLeft="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:text="Thank you for your Feedback. Your Feedback matters :)"
+            android:textStyle="bold"
+            android:paddingStart="10dp"
+            android:paddingBottom="20dp"
+            android:paddingTop="10dp"
+            android:layout_below="@+id/eight"
+            android:paddingLeft="10dp" />
+
+    </RelativeLayout>
+
+
+</ScrollView>

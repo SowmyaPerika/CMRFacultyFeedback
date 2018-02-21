@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.win.cmrfacultyfeedback.Rate"
+    tools:showIn="@layout/app_bar_rate">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="    About the Feedback:"
+    android:textSize="26sp"
+    android:textColor="@android:color/black"
+    android:textStyle="bold"
+    android:paddingTop="10dp"/>
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="      Stars grading"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="             > 5 - EXCELLENT "
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:paddingTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="             > 4 - VERYGOOD "
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:paddingTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="             > 3 - GOOD "
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:paddingTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="             > 2 - POOR "
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:paddingTop="20dp"/>
+   <!-- <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="           > 1 - BAD "
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:paddingTop="20dp"/>-->
+</LinearLayout>
+</ScrollView>

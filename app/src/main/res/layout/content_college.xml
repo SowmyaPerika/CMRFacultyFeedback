@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.win.cmrfacultyfeedback.College"
+    tools:showIn="@layout/app_bar_college">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/chairman" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:paddingLeft="80dp"
+            android:text="Shri Ch.Gopal Reddy"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="11dp"
+            android:paddingLeft="145dp"
+            android:text="Chairman"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About CMRTC"
+            android:paddingTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/about"
+        android:paddingTop="10dp"
+        android:text="CMR Group of Institutions is one of the premier educational institutions dedicated to impart quality education and promoting excellence in academic pursuits in the field of Science."
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/about"
+        android:text="Vision:"
+        android:paddingTop="10dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="23sp"
+        />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="To impart quality education in serene atmosphere thus strive for excellence in Technology and Research."
+        android:textColor="@android:color/black"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:text="Mission:"
+        android:textColor="@color/colorAccent"
+        android:textSize="23sp"
+        />
+
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:textColor="@android:color/black"
+        android:paddingBottom="25dp"
+        android:textSize="20sp"
+        android:text="* To create state of art facilities for effective Teaching - Learning Process.
+
+* Pursue and Disseminate Knowledge based research to meet the needs of Industry and Society.
+
+* Infuse Professional, Ethical and Societal values among Learning Community.
+
+CMR Technical Campus has been structured to take a quantum leap on the changing trends of technology. The need of setting up the college emerged when no other college could fulfill to the aspirations of a student in his/her endeavor to acquire wholesome education. The very strength of CMR Technical Campus lies in its principles of providing the right learning environment for the student who does not have to compromise throughout the learning process of becoming global citizen.
+
+Over the years since it has been established, there has been dynamic progress at CMRTC in all academic and research activities, and a spectacular improvement in facilities and infrastructure, to keep it on par with the best institutions in India. The campus epitomizes the Technical Campus motto, Learning and Exploring in providing the best of infrastructure and ambience. CMR Technical Campus keeps abreast of the global situation."/>
+
+    </LinearLayout>
+</ScrollView>

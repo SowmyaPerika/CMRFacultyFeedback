@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.win.cmrfacultyfeedback.Branch">
+
+    <Button
+        android:id="@+id/cse"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ece"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/ece"
+        android:layout_marginTop="132dp"
+        android:background="@color/colorAccent"
+        android:text="@string/cse"
+        android:textColor="@android:color/white" />
+    <Button
+        android:id="@+id/ece"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="11dp"
+        android:text="@string/ece"
+        android:layout_below="@+id/cse"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/mech"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:text="@string/mech"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/ece"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/civil"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:text="@string/civil"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/mech"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

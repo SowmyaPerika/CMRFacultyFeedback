@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.win.cmrfacultyfeedback.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Welcome to Online Faculty Feedback"
+        android:textColor="@android:color/black"
+        android:id="@+id/textView"
+        android:layout_marginBottom="16dp"
+        android:layout_above="@+id/login_btn"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/start_reg_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Need a New Account?"
+        android:backgroundTint="@android:color/black"
+        android:textColor="@android:color/white"
+        android:layout_above="@+id/admin_login"
+        android:layout_alignLeft="@+id/login_btn"
+        android:layout_alignStart="@+id/login_btn"
+        android:layout_marginBottom="11dp" />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:text="Already Have Account"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="11dp"
+        android:layout_above="@+id/start_reg_btn"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/admin_login"
+        android:backgroundTint="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        android:text="Admin Login"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/start_reg_btn"
+        android:layout_alignStart="@+id/start_reg_btn"
+        android:layout_alignRight="@+id/start_reg_btn"
+        android:layout_alignEnd="@+id/start_reg_btn" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/fd"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

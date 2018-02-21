@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "853620922626",
+    "firebase_url": "https://cmrfacultyfeedback-abc78.firebaseio.com",
+    "project_id": "cmrfacultyfeedback-abc78",
+    "storage_bucket": "cmrfacultyfeedback-abc78.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853620922626:android:5557620b69d25bd7",
+        "android_client_info": {
+          "package_name": "com.example.win.cmrfacultyfeedback"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "853620922626-dqainv9s4d3nj0ksl01geite9fb1m6d2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgjF2Yy8EgBa9UB2dXN17qwSLC-AnYS_s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

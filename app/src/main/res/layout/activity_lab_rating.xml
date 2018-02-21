@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.win.cmrfacultyfeedback.LabRating">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <TextView
+                android:id="@+id/year"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/give_your_rating"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="29sp"
+                android:paddingBottom="30dp"/>
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="46dp"
+                android:text="@string/usefullness_of_the_experiments_in_clarifying_theoretical_concepts"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                />
+            <RatingBar
+                android:id="@+id/rate1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rating="1"/>
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:layout_height="46dp"
+                android:text="@string/all_experiments_in_the_syllabus_are_covered"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                />
+            <RatingBar
+                android:id="@+id/rate2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rating="1"/>
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="@string/usefulness_of_laboratory_instructions"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                />
+            <RatingBar
+                android:id="@+id/rate3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rating="1"/>
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:layout_height="61dp"
+                android:text="@string/involvement_of_the_lab_instructors_in_lab_conuct_and_record_correction"
+                android:textColor="@android:color/black"
+
+                android:textSize="20sp" />
+
+            <RatingBar
+                android:id="@+id/rate4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTintMode="src_over"
+                android:elevation="1dp"
+                android:rating="1"
+                tools:targetApi="lollipop" />
+            <TextView
+                android:id="@+id/t5"
+                android:layout_width="wrap_content"
+                android:layout_height="47dp"
+                android:text="@string/fairness_in_lab_viva_and_quiz_conduct"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+            <RatingBar
+                android:id="@+id/rate5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rating="1"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginStart="150dp"
+                android:background="@color/colorAccent"
+                android:text="@string/submit"
+                android:layout_marginLeft="150dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
